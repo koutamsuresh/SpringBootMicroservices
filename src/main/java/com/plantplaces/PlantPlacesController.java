@@ -14,6 +14,11 @@ public class PlantPlacesController {
 		return "start";
 	}
 	
+	/**
+	 * 
+	 * handle the slash endpoint
+	 */
+	
 	@RequestMapping("/")
 	public String index() {
 		return "start";
