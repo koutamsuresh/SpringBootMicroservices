@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PlantPlacesController {
 	/**
 	 * 
-	 * handle the start endpoint
+	 * handle the start end point
 	 */
 	@RequestMapping("/start")
 	public String start() {
